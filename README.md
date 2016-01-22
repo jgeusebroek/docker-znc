@@ -1,6 +1,8 @@
+[![](https://badge.imagelayers.io/jgeusebroek/znc:latest.svg)](https://imagelayers.io/?images=jgeusebroek/znc:latest 'Get your own badge on imagelayers.io')
+
 # Docker ZNC container
 
-A tiny container (5MB) running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [ZNC](http://wiki.znc.in/ZNC) with basic modules.
+A tiny container running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [ZNC](http://wiki.znc.in/ZNC) with basic modules.
 Need custom module support? Have a look at [jimeh/znc](https://github.com/jimeh/docker-znc).
 
 ## Usage

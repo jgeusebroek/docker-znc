@@ -14,7 +14,7 @@ VOLUME [ "/config" ]
 ADD ./entrypoint.sh /entrypoint.sh
 RUN chmod u+x  /entrypoint.sh
 
-EXPOSE 1337/udp
+EXPOSE 1337/tcp
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD [ "" ]

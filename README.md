@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/image/jgeusebroek/znc.svg)](https://microbadger.com/images/jgeusebroek/znv "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/jgeusebroek/znc.svg)](https://microbadger.com/images/jgeusebroek/znc "Get your own image badge on microbadger.com")
 # Docker ZNC image
 
 A tiny image running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [ZNC](http://wiki.znc.in/ZNC) with basic modules.

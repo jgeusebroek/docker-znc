@@ -1,8 +1,8 @@
 FROM alpine:latest
 MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
 
-ENV PACKAGE_LIST="znc znc-extra sudo" \
-    REFRESHED_AT='2016-09-07'
+ENV PACKAGE_LIST="znc znc-extra sudo ca-certificates" \
+    REFRESHED_AT='2017-06-07'
 
 RUN apk add --no-cache ${PACKAGE_LIST} && \
 

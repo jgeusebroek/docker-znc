@@ -1,7 +1,8 @@
 [![](https://images.microbadger.com/badges/image/jgeusebroek/znc.svg)](https://microbadger.com/images/jgeusebroek/znc "Get your own image badge on microbadger.com")
+[![](https://img.shields.io/docker/pulls/jgeusebroek/znc.svg)](https://hub.docker.com/r/jgeusebroek/znc/)
 # Docker ZNC image
 
-A tiny image running [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [ZNC](http://wiki.znc.in/ZNC) with basic modules.
+A tiny image running [Alpine Linux](https://alpinelinux.org/) and [ZNC](http://wiki.znc.in/ZNC) with basic modules.
 Need custom module support? Have a look at [jimeh/znc](https://github.com/jimeh/docker-znc).
 
 ## Usage
@@ -36,4 +37,4 @@ MIT / BSD
 
 ## Author Information
 
-[Jeroen Geusebroek](http://jeroengeusebroek.nl/)
+[Jeroen Geusebroek](https://jeroengeusebroek.nl/)

@@ -1,12 +1,9 @@
 FROM alpine:latest
-MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
+LABEL maintainer="Jeroen Geusebroek <me@jeroengeusebroek.nl>"
 
-ENV PACKAGE_LIST="znc znc-extra sudo ca-certificates" \
-    REFRESHED_AT='2017-06-07'
+ENV PACKAGE_LIST="znc znc-extra sudo ca-certificates"
 
 RUN apk add --no-cache ${PACKAGE_LIST} && \
-
-	# Delete standard ZNC user so we can use any UID/GID we like.
 	deluser znc
 
 VOLUME [ "/config" ]
